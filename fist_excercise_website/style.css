@@ -1,7 +1,7 @@
 
  .nav-right-items{
    display: flex;
-   margin-left: auto;
+   margin-left: auto; /*중앙으로 모여줌*/
   }
       
  .company-name {
