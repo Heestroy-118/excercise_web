@@ -2,18 +2,18 @@
   height: 70px;
   border-bottom: 1px solid black;
   display: flex;
-  justify-content: space-between; /* justify-content를 space-between으로 변경 */
-  align-items: center;
+  justify-content: space-between; /* item을 수평 방향으로 정렬 */
+  align-items: center; /*수직 방향으로 정렬*/
 }
 
 .nav-right-items{
- display: flex;
+ display: flex; /*Flexbox 레이아웃을 구성할 때 사용되는 속성,flex container와 flex item을 생성할 수 있다*/
  margin-left: auto;
 }
 
 .nav-item {
-  margin-left: 20px;
-  padding: 0.5rem;
+  margin-left: 20px;/* margin은 요소의 외부 여백을 지정*/
+  padding: 0.5rem; /*요소의 내부 여백을 지정*/
 }
 
 .nav-item-button {
@@ -26,6 +26,8 @@
   border-radius: 0.25rem;
 }
 
+
+    
 .title {
   font-size: 3.5rem;
   font-weight: 200;
