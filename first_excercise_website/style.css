@@ -1,13 +1,13 @@
 .nav {
   height: 70px;
   border-bottom: 1px solid black;
-  display: flex;
+  display: flex; /*Flexbox 레이아웃을 구성할 때 사용되는 속성,flex container와 flex item을 생성할 수 있다*/
   justify-content: space-between; /* item을 수평 방향으로 정렬 */
   align-items: center; /*수직 방향으로 정렬*/
 }
 
 .nav-right-items{
- display: flex; /*Flexbox 레이아웃을 구성할 때 사용되는 속성,flex container와 flex item을 생성할 수 있다*/
+ display: flex; 
  margin-left: auto;
 }
 
